@@ -13,7 +13,175 @@
 
 <body>
 
-<h1>Coming December 20.</h1>
+    <nav class="navbar">
+        <span class="logo navbar__logo">Designer.</span>
+        <ul class="navbar__list">
+            <li class="navbar__item"><a href="#header">Home</a></li>
+            <li class="navbar__item"><a href="#aboutme">About Me</a></li>
+            <li class="navbar__item"><a href="#experience">Experience</a></li>
+            <!-- <li class="navbar__item"><a href="#portfolio">Portfolio</a></li> -->
+            <li class="navbar__item"><a href="#pricing">Pricing</a></li>
+            <li class="navbar__item"><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <header id="header" class="section header">
+        <div class="section__container header__container">
+            <div class="header__wrapper">
+                <h3 class="header__text header__text--hello color-secondary">Hello, I'm</h3>
+                <h1 class="header__text header__text--name">Johthan Smith</h1>
+                <h5 class="header__text--subscript">Professional Freelancer & Web Developer</h5>
+                <p class="header__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perspiciatis suscipit vero ipsam et praesentium facilis! Vitae vero pariatur non dolorem aspernatur exercitationem enim, molestiae, autem recusandae, explicabo voluptatum.</p>
+                <!-- <button class="header__button" onclick="window.location.href='#pricing'">Hire Me</button> -->
+                <button class="header__button">Hire Me</button>
+            </div>
+            <img src="img/portrait1.png" alt="" class="header__portrait">
+        </div>
+        
+    </header>
+    <section id="aboutme" class="section aboutme">
+        <div class="section__container aboutme__container">
+            <div class="aboutme__border"></div>
+            <img src="img/portrait2.png" alt="" class="aboutme__portrait">
+            <div class="aboutme__wrapper">
+                <h4 class="section__title aboutme__title">About Me</h4>
+                <h2 class="section__header aboutme__text aboutme__text--header">Why You Should Hire Me!</h2>
+                <div class="section__divisor"></div>
+                <p class="section__text aboutme__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="aboutme__skills">
+                    <h6 class="aboutme__skill-name aboutme__skill-name--ui">Ui/Ux Design</h6>
+                    <div class="aboutme__skill-container">
+                        <div class="aboutme__skill-bar aboutme__skill-bar--ui"></div>
+                    </div>
+                    <h6 class="aboutme__skill-name aboutme__skill-name--web">Web Design</h6>
+                    <div class="aboutme__skill-container">
+                        <div class="aboutme__skill-bar aboutme__skill-bar--web"></div>
+                    </div>
+                    <h6 class="aboutme__skill-name aboutme__skill-name--html">Html/Css</h6>
+                    <div class="aboutme__skill-container">
+                        <div class="aboutme__skill-bar aboutme__skill-bar--html"></div>
+                    </div>
+                    <h6 class="aboutme__skill-name aboutme__skill-name--wordpress">Wordpress</h6>
+                    <div class="aboutme__skill-container">
+                        <div class="aboutme__skill-bar aboutme__skill-bar--wordpress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="experience" class="section experience">
+        <div class="section__container experience__container">
+            <h4 class="section__title experience__title">Experience</h4>
+            <h2 class="section__header experience__text experience__text--header">Work Experience</h2>
+            <div class="section__divisor"></div>
+            <div class="experience__wrapper">
+                <div class="experience__axis"></div>
+                <div class="experience__entry experience__entry--1">
+
+                </div>
+                <div class="experience__entry experience__entry--2">
+
+                </div>
+                <div class="experience__entry experience__entry--3">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section id="portfolio" class="section portfolio">
+        <div class="section__container portfolio__container">
+            <h4 class="section__title portfolio__title">Portfolio</h4>
+            <h2 class="section__header portfolio__text portfolio__text--header">Recent Projects</h2>
+            <div class="section__divisor"></div>
+        </div>
+    </section> -->
+    <section id="pricing" class="section pricing">
+        <div class="section__container pricing__container">
+            <h4 class="section__title pricing__title">Pricing</h4>
+            <h2 class="section__header pricing__text pricing__text--header">My Services</h2>
+            <div class="section__divisor"></div>
+            <div class="pricing__wrapper">
+                <div class="pricing__plan pricing__plan--opt1">
+                    <div class="pricing__heading">
+                        <h3 class="pricing__name">Basic</h3>
+                        <h1 class="pricing__price">75$</h1>
+                        <h5 class="pricing__subscript">Only PSD Service</h5>
+                        <hr class="pricing__hr">
+                    </div>
+                    <ul class="pricing__list">
+                        <li>Graphic Design</li>
+                        <li>Web Design</li>
+                        <li>UI/UX</li>
+                        <li>HTML/CSS</li>
+                        <li>SEO Marketing</li>
+                        <li>Business Improvement</li>
+                    </ul>
+                    <button class="pricing__button" id="btnBasic">Chose Plan</button>
+                </div>
+                <div class="pricing__plan pricing__plan--opt2">
+                    <div class="pricing__heading">
+                        <h3 class="pricing__name">Standard</h3>
+                        <h1 class="pricing__price">250$</h1>
+                        <h5 class="pricing__subscript">Complete Service</h5>
+                        <hr class="pricing__hr">
+                    </div>
+                    <ul class="pricing__list">
+                        <li>Graphic Design</li>
+                        <li>Web Design</li>
+                        <li>UI/UX</li>
+                        <li>HTML/CSS</li>
+                        <li>SEO Marketing</li>
+                        <li>Business Improvement</li>
+                    </ul>
+                    <button class="pricing__button" id="btnBasic">Chose Plan</button>
+                </div>
+                <div class="pricing__plan pricing__plan--opt3">
+                    <div class="pricing__heading">
+                        <h3 class="pricing__name">Premium</h3>
+                        <h1 class="pricing__price">350$</h1>
+                        <h5 class="pricing__subscript">Highest Priority</h5>
+                        <hr class="pricing__hr">
+                    </div>
+                    <ul class="pricing__list">
+                        <li>Graphic Design</li>
+                        <li>Web Design</li>
+                        <li>UI/UX</li>
+                        <li>HTML/CSS</li>
+                        <li>SEO Marketing</li>
+                        <li>Business Improvement</li>
+                    </ul>
+                    <button class="pricing__button" id="btnBasic">Chose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section contact">
+        <div class="section__container contact__container">
+            <form class="contact__form" action="#contact">
+                <h2 class="contact__header">Have Any Project in Mind?</h2>
+                <div class="row">
+                    <label for="name" class="contact__label contact__label col-25">Name:</label>
+                    <input type="text" name="name" id="name" class="contact__input contact__input col-75" placeholder="Your Name">
+                </div>
+                <div class="row">
+                    <label for="mail" class="contact__label contact__label col-25">Email:</label>
+                    <input type="text" name="mail" id="mail" class="contact__input contact__input col-75" placeholder="mail@example.com">
+                </div>
+                <div class="row">
+                    <label for="message" class="contact__label contact__label--message col-25">Message:</label>
+                    <textarea name="message" id="message" class="contact__input contact__input--textarea col-75" placeholder="Write me about anything"></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Contact Me" class="contact__button">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="section footer">
+        <span class="logo footer__logo">Designer.</span>
+        <div class="footer__socials"></div>
+        <h3 class="footer__mail"><a href="#">hello.designer@example.com</a></h3>
+        <h3 class="footer__credits">Made by <a href="https://github.com/Cidebur/">Michał Ciborowski</a> as a project for <a href="https://coderscamp.edu.pl/">CodersCamp 2020</a>. Layout design: <a href="https://www.behance.net/gallery/90079519/Resume-Landing-page?tracking_source=search_projects_recommended%7Clanding%20page%20web%20design">Tanbir Ahmed</a>.</h3>
+    </footer>
 
 </body>
 </html>
