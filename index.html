@@ -2,12 +2,11 @@
 <html lang="pl">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Michał Ciborowski</title>
     <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
-    <link rel="stylesheet" href="style.min.css" type="text/css">
+    <link rel="stylesheet" href="style/style.min.css" type="text/css">
 
 </head>
 
@@ -15,14 +14,16 @@
 
     <nav class="navbar">
         <span class="logo navbar__logo">Designer.</span>
-        <ul class="navbar__list">
-            <li class="navbar__item"><a href="#header">Home</a></li>
-            <li class="navbar__item"><a href="#aboutme">About Me</a></li>
-            <li class="navbar__item"><a href="#experience">Experience</a></li>
-            <!-- <li class="navbar__item"><a href="#portfolio">Portfolio</a></li> -->
-            <li class="navbar__item"><a href="#pricing">Pricing</a></li>
-            <li class="navbar__item"><a href="#contact">Contact Me</a></li>
-        </ul>
+        <input type="checkbox" class="navbar__checkbox" id="hamburger" aria-expanded="false">
+        <label for="hamburger" class="navbar__hamburger">
+            &#9776;
+        </label>
+        <div class="navbar__links">
+            <a class="navbar__item" href="#header">Home</a>
+            <a class="navbar__item" href="#aboutme">About Me</a>
+            <a class="navbar__item" href="#pricing">Pricing</a>
+            <a class="navbar__item" href="#contact">Contact Me</a>
+        </div>
     </nav>
     <header id="header" class="section header">
         <div class="section__container header__container">
@@ -31,7 +32,6 @@
                 <h1 class="header__text header__text--name">Johthan Smith</h1>
                 <h5 class="header__text--subscript">Professional Freelancer & Web Developer</h5>
                 <p class="header__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ad perspiciatis suscipit vero ipsam et praesentium facilis! Vitae vero pariatur non dolorem aspernatur exercitationem enim, molestiae, autem recusandae, explicabo voluptatum.</p>
-                <!-- <button class="header__button" onclick="window.location.href='#pricing'">Hire Me</button> -->
                 <button class="header__button">Hire Me</button>
             </div>
             <img src="img/portrait1.png" alt="" class="header__portrait">
@@ -68,32 +68,6 @@
             </div>
         </div>
     </section>
-    <!-- <section id="experience" class="section experience">
-        <div class="section__container experience__container">
-            <h4 class="section__title experience__title">Experience</h4>
-            <h2 class="section__header experience__text experience__text--header">Work Experience</h2>
-            <div class="section__divisor"></div>
-            <div class="experience__wrapper">
-                <div class="experience__axis"></div>
-                <div class="experience__entry experience__entry--1">
-
-                </div>
-                <div class="experience__entry experience__entry--2">
-
-                </div>
-                <div class="experience__entry experience__entry--3">
-
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section id="portfolio" class="section portfolio">
-        <div class="section__container portfolio__container">
-            <h4 class="section__title portfolio__title">Portfolio</h4>
-            <h2 class="section__header portfolio__text portfolio__text--header">Recent Projects</h2>
-            <div class="section__divisor"></div>
-        </div>
-    </section> -->
     <section id="pricing" class="section pricing">
         <div class="section__container pricing__container">
             <h4 class="section__title pricing__title">Pricing</h4>
@@ -180,8 +154,7 @@
         <span class="logo footer__logo">Designer.</span>
         <div class="footer__socials"></div>
         <h3 class="footer__mail"><a href="#">hello.designer@example.com</a></h3>
-        <h3 class="footer__credits">Made by <a href="https://github.com/Cidebur/">Michał Ciborowski</a> as a project for <a href="https://coderscamp.edu.pl/">CodersCamp 2020</a>. Layout design: <a href="https://www.behance.net/gallery/90079519/Resume-Landing-page?tracking_source=search_projects_recommended%7Clanding%20page%20web%20design">Tanbir Ahmed</a>.</h3>
+        <h3 class="footer__credits">Made by <a href="https://github.com/Cidebur/" target="_blank">Michał Ciborowski</a> as a project for <a href="https://coderscamp.edu.pl/" target="_blank">CodersCamp 2020</a>. Layout design: <a href="https://www.behance.net/gallery/90079519/Resume-Landing-page?tracking_source=search_projects_recommended%7Clanding%20page%20web%20design" target="_blank">Tanbir Ahmed</a>.</h3>
     </footer>
-
 </body>
 </html>
